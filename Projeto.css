@@ -1,0 +1,161 @@
+body {
+    margin:0; 
+    padding:0; 
+    background-color:#0a1628; 
+    color:#f5f0e8;
+}
+h1 {
+  font-size:3.8rem; 
+  font-weight:300; 
+  font-style:italic; 
+  color:#ffffff; 
+  margin:0 0 28px; 
+  text-align:center; 
+  line-height:1.2;
+}
+h2 {
+  font-size:1.7rem; 
+  font-weight:400; 
+  color:#e5ebf0; 
+  margin:0 0 15px; 
+  letter-spacing:1px;
+}
+h3 {
+  font-size:1.7rem; 
+  font-weight:400; 
+  color:#e5ecf0; 
+  margin:0 0 15px; 
+  letter-spacing:1px;
+
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 16px;
+    gap: 25px;
+}
+a {
+    color:white;
+    text-decoration: none;
+    
+}
+p {
+    padding: 16px;
+    font-size:1.0rem;
+    font-weight:300; 
+    line-height:1.9; 
+    color:#8a9bb5;
+    margin:0 0 28px; 
+    letter-spacing:0.5px;
+}
+
+:root {
+  --cor-topo: #05182f;
+  --cor-topo-texto: #ffffff;
+  --cor-destaque: #5699dd;
+}
+
+header {
+  background-color: var(--cor-topo);
+  color: var(--cor-topo-texto);
+  border-bottom: 3px solid var(--cor-destaque);
+  display:flex; 
+  align-items:center; 
+  justify-content:space-between; 
+  padding:10px 40px
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.header-titles h1 { font-size: 1.6rem; color: #ffffff; }
+.header-titles h2 { font-size: 0.95rem; color: var(--cor-destaque); }
+
+nav ul { list-style: none; display: flex; gap: 1.5rem; }
+nav a  { color: #ffffff; text-decoration: none; }
+nav a:hover { color: var(--cor-destaque); }
+
+.img-barco2.png{
+  width:40px; 
+  height:40px;
+}
+.div-logo{
+  display:flex; 
+  align-items:center; 
+  gap:10px;
+}
+nav {
+  list-style:none; 
+  display:flex; 
+  gap:30px; 
+  margin:0; 
+  padding:0;
+}
+.div-hero-caixa {
+  padding-top:10px;
+}
+span {
+  font-size:0.9rem; 
+  font-weight:300;
+  text-transform:uppercase; 
+  color:#eaeaea
+}
+td {
+  padding-right:12px;
+}
+.conteudo {             
+  align-items: center;        
+  gap: 40px;                  
+  padding: 60px 80px;
+}
+.coluna {
+  flex: 1;
+  gap: 100px;
+}
+.cabecalho-secao {
+  flex: 1;
+  gap: 100px;
+}
+.img-principal {
+  width: 40%;
+  border-radius: 16px;        
+  object-fit: cover;
+}
+.grade-fotos {
+  width: 40%;
+  border-radius: 16px;        
+  object-fit: cover;
+}
+.barra-contato {
+  display: flex;
+  justify-content: flex-end;  
+  padding: 12px 40px;
+  background-color: #1a3a5c;  
+}
+.barra-contato p {
+  color: #ffbc04;              
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+.grade-fotos p {
+  display: flex 1;
+  align-items: center
+}

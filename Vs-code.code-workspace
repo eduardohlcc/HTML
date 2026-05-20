@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Vs-code"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}
